@@ -1,0 +1,64 @@
+C:\Users\vijaythapa333\Desktop\AnyStore\AnyStore\bin\Debug\AnyStore.exe.config
+C:\Users\vijaythapa333\Desktop\AnyStore\AnyStore\bin\Debug\AnyStore.exe
+C:\Users\vijaythapa333\Desktop\AnyStore\AnyStore\bin\Debug\AnyStore.pdb
+C:\Users\vijaythapa333\Desktop\AnyStore\AnyStore\obj\Debug\AnyStore.csprojResolveAssemblyReference.cache
+C:\Users\vijaythapa333\Desktop\AnyStore\AnyStore\obj\Debug\AnyStore.frmAdminDashboard.resources
+C:\Users\vijaythapa333\Desktop\AnyStore\AnyStore\obj\Debug\AnyStore.Properties.Resources.resources
+C:\Users\vijaythapa333\Desktop\AnyStore\AnyStore\obj\Debug\AnyStore.csproj.GenerateResource.Cache
+C:\Users\vijaythapa333\Desktop\AnyStore\AnyStore\obj\Debug\AnyStore.exe
+C:\Users\vijaythapa333\Desktop\AnyStore\AnyStore\obj\Debug\AnyStore.pdb
+C:\Users\vijaythapa333\Desktop\AnyStore\AnyStore\obj\Debug\AnyStore.frmUserDashboard.resources
+C:\Users\vijaythapa333\Desktop\anystore\AnyStore\obj\Debug\AnyStore.UI.frmUsers.resources
+C:\Users\vijaythapa333\Desktop\anystore\AnyStore\obj\Debug\AnyStore.UI.frmLogin.resources
+C:\Users\vijaythapa333\Desktop\anystore\AnyStore\obj\Debug\AnyStore.UI.frmCategories.resources
+C:\Users\vijaythapa333\Desktop\anystore\AnyStore\obj\Debug\AnyStore.UI.frmProducts.resources
+C:\Users\vijaythapa333\Desktop\anystore\AnyStore\obj\Debug\AnyStore.UI.frmDeaCust.resources
+C:\Users\vijaythapa333\Desktop\anystore\AnyStore\obj\Debug\AnyStore.UI.frmPurchaseAndSales.resources
+C:\Users\vijaythapa333\Desktop\anystore\AnyStore\obj\Debug\AnyStore.UI.frmTransactions.resources
+C:\Users\vijaythapa333\Desktop\anystore\AnyStore\obj\Debug\AnyStore.UI.frmInventory.resources
+C:\Users\ayman\Downloads\anystore-master\anystore-master\AnyStore\obj\Debug\AnyStore.csprojAssemblyReference.cache
+C:\Users\ayman\Downloads\anystore-master\anystore-master\AnyStore\obj\Debug\AnyStore.exe
+C:\Users\ayman\Downloads\anystore-master\anystore-master\AnyStore\obj\Debug\AnyStore.pdb
+C:\Users\ayman\Source\Repos\anystore-master\AnyStore\obj\Debug\AnyStore.csprojAssemblyReference.cache
+C:\Users\ayman\Source\Repos\anystore-master\AnyStore\obj\Debug\AnyStore.exe
+C:\Users\ayman\Source\Repos\anystore-master\AnyStore\obj\Debug\AnyStore.pdb
+G:\Desktop\anystore-master\AnyStore\bin\Debug\AnyStore.exe.config
+G:\Desktop\anystore-master\AnyStore\bin\Debug\AnyStore.exe
+G:\Desktop\anystore-master\AnyStore\bin\Debug\AnyStore.pdb
+G:\Desktop\anystore-master\AnyStore\obj\Debug\AnyStore.frmAdminDashboard.resources
+G:\Desktop\anystore-master\AnyStore\obj\Debug\AnyStore.UI.frmCategories.resources
+G:\Desktop\anystore-master\AnyStore\obj\Debug\AnyStore.UI.frmDeaCust.resources
+G:\Desktop\anystore-master\AnyStore\obj\Debug\AnyStore.UI.frmInventory.resources
+G:\Desktop\anystore-master\AnyStore\obj\Debug\AnyStore.UI.frmLogin.resources
+G:\Desktop\anystore-master\AnyStore\obj\Debug\AnyStore.UI.frmProducts.resources
+G:\Desktop\anystore-master\AnyStore\obj\Debug\AnyStore.UI.frmPurchaseAndSales.resources
+G:\Desktop\anystore-master\AnyStore\obj\Debug\AnyStore.UI.frmTransactions.resources
+G:\Desktop\anystore-master\AnyStore\obj\Debug\AnyStore.frmUserDashboard.resources
+G:\Desktop\anystore-master\AnyStore\obj\Debug\AnyStore.Properties.Resources.resources
+G:\Desktop\anystore-master\AnyStore\obj\Debug\AnyStore.UI.frmUsers.resources
+G:\Desktop\anystore-master\AnyStore\obj\Debug\AnyStore.csproj.GenerateResource.cache
+G:\Desktop\anystore-master\AnyStore\obj\Debug\AnyStore.csproj.CoreCompileInputs.cache
+G:\Desktop\anystore-master\AnyStore\obj\Debug\AnyStore.exe
+G:\Desktop\anystore-master\AnyStore\obj\Debug\AnyStore.pdb
+G:\Desktop\anystore-master\AnyStore\obj\Debug\AnyStore.csproj.AssemblyReference.cache
+G:\Desktop\anystore-master\AnyStore\obj\Debug\AnyStore.csproj.SuggestedBindingRedirects.cache
+E:\انضمه جاهزه\anystore-master\AnyStore\bin\Debug\AnyStore.exe.config
+E:\انضمه جاهزه\anystore-master\AnyStore\bin\Debug\AnyStore.exe
+E:\انضمه جاهزه\anystore-master\AnyStore\bin\Debug\AnyStore.pdb
+E:\انضمه جاهزه\anystore-master\AnyStore\obj\Debug\AnyStore.csproj.AssemblyReference.cache
+E:\انضمه جاهزه\anystore-master\AnyStore\obj\Debug\AnyStore.csproj.SuggestedBindingRedirects.cache
+E:\انضمه جاهزه\anystore-master\AnyStore\obj\Debug\AnyStore.frmAdminDashboard.resources
+E:\انضمه جاهزه\anystore-master\AnyStore\obj\Debug\AnyStore.UI.frmCategories.resources
+E:\انضمه جاهزه\anystore-master\AnyStore\obj\Debug\AnyStore.UI.frmDeaCust.resources
+E:\انضمه جاهزه\anystore-master\AnyStore\obj\Debug\AnyStore.UI.frmInventory.resources
+E:\انضمه جاهزه\anystore-master\AnyStore\obj\Debug\AnyStore.UI.frmLogin.resources
+E:\انضمه جاهزه\anystore-master\AnyStore\obj\Debug\AnyStore.UI.frmProducts.resources
+E:\انضمه جاهزه\anystore-master\AnyStore\obj\Debug\AnyStore.UI.frmPurchaseAndSales.resources
+E:\انضمه جاهزه\anystore-master\AnyStore\obj\Debug\AnyStore.UI.frmTransactions.resources
+E:\انضمه جاهزه\anystore-master\AnyStore\obj\Debug\AnyStore.frmUserDashboard.resources
+E:\انضمه جاهزه\anystore-master\AnyStore\obj\Debug\AnyStore.Properties.Resources.resources
+E:\انضمه جاهزه\anystore-master\AnyStore\obj\Debug\AnyStore.UI.frmUsers.resources
+E:\انضمه جاهزه\anystore-master\AnyStore\obj\Debug\AnyStore.csproj.GenerateResource.cache
+E:\انضمه جاهزه\anystore-master\AnyStore\obj\Debug\AnyStore.csproj.CoreCompileInputs.cache
+E:\انضمه جاهزه\anystore-master\AnyStore\obj\Debug\AnyStore.exe
+E:\انضمه جاهزه\anystore-master\AnyStore\obj\Debug\AnyStore.pdb

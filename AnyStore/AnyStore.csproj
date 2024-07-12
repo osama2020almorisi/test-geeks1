@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{896E58FE-627C-4AB5-8C76-D5986E158A39}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AnyStore</RootNamespace>
+    <AssemblyName>AnyStore</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\categoriesBLL.cs" />
+    <Compile Include="BLL\DeaCustBLL.cs" />
+    <Compile Include="BLL\loginBLL.cs" />
+    <Compile Include="BLL\productsBLL.cs" />
+    <Compile Include="BLL\transactionDetailBLL.cs" />
+    <Compile Include="BLL\transactionsBLL.cs" />
+    <Compile Include="BLL\userBLL.cs" />
+    <Compile Include="DAL\categoriesDAL.cs" />
+    <Compile Include="DAL\DeaCustDAL.cs" />
+    <Compile Include="DAL\DGVPrinter.cs" />
+    <Compile Include="DAL\loginDAL.cs" />
+    <Compile Include="DAL\productsDAL.cs" />
+    <Compile Include="DAL\transactionDAL.cs" />
+    <Compile Include="DAL\transactionDetailDAL.cs" />
+    <Compile Include="DAL\userDAL.cs" />
+    <Compile Include="studentdb1DataSet.cs">
+      <DependentUpon>studentdb1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="studentdb1DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>studentdb1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmAdminDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmAdminDashboard.Designer.cs">
+      <DependentUpon>frmAdminDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmCategories.Designer.cs">
+      <DependentUpon>frmCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmDeaCust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmDeaCust.Designer.cs">
+      <DependentUpon>frmDeaCust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmInventory.Designer.cs">
+      <DependentUpon>frmInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmProducts.Designer.cs">
+      <DependentUpon>frmProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmPurchaseAndSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmPurchaseAndSales.Designer.cs">
+      <DependentUpon>frmPurchaseAndSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmTransactions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmTransactions.Designer.cs">
+      <DependentUpon>frmTransactions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmUserDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmUserDashboard.Designer.cs">
+      <DependentUpon>frmUserDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\frmUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmUsers.Designer.cs">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI\frmAdminDashboard.resx">
+      <DependentUpon>frmAdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmCategories.resx">
+      <DependentUpon>frmCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmDeaCust.resx">
+      <DependentUpon>frmDeaCust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmInventory.resx">
+      <DependentUpon>frmInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmProducts.resx">
+      <DependentUpon>frmProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmPurchaseAndSales.resx">
+      <DependentUpon>frmPurchaseAndSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmTransactions.resx">
+      <DependentUpon>frmTransactions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmUserDashboard.resx">
+      <DependentUpon>frmUserDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI\frmUsers.resx">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\AnyStore.BLL.categoriesBLL.datasource" />
+    <None Include="Properties\DataSources\AnyStore.BLL.DeaCustBLL.datasource" />
+    <None Include="Properties\DataSources\AnyStore.BLL.loginBLL.datasource" />
+    <None Include="Properties\DataSources\AnyStore.BLL.productsBLL.datasource" />
+    <None Include="Properties\DataSources\AnyStore.BLL.transactionDetailBLL.datasource" />
+    <None Include="Properties\DataSources\AnyStore.BLL.transactionsBLL.datasource" />
+    <None Include="Properties\DataSources\AnyStore.BLL.userBLL.datasource" />
+    <None Include="Properties\DataSources\AnyStore.DAL.categoriesDAL.datasource" />
+    <None Include="Properties\DataSources\AnyStore.DAL.DeaCustDAL.datasource" />
+    <None Include="Properties\DataSources\AnyStore.DAL.loginDAL.datasource" />
+    <None Include="Properties\DataSources\AnyStore.DAL.productsDAL.datasource" />
+    <None Include="Properties\DataSources\AnyStore.DAL.transactionDAL.datasource" />
+    <None Include="Properties\DataSources\AnyStore.DAL.transactionDetailDAL.datasource" />
+    <None Include="Properties\DataSources\AnyStore.DAL.userDAL.datasource" />
+    <None Include="Properties\DataSources\AnyStore.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\AnyStore.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\AnyStore.UI.frmCategories.datasource" />
+    <None Include="Properties\DataSources\AnyStore.UI.frmDeaCust.datasource" />
+    <None Include="Properties\DataSources\AnyStore.UI.frmInventory.datasource" />
+    <None Include="Properties\DataSources\AnyStore.UI.frmLogin.datasource" />
+    <None Include="Properties\DataSources\AnyStore.UI.frmProducts.datasource" />
+    <None Include="Properties\DataSources\AnyStore.UI.frmPurchaseAndSales.datasource" />
+    <None Include="Properties\DataSources\AnyStore.UI.frmTransactions.datasource" />
+    <None Include="Properties\DataSources\AnyStore.UI.frmUsers.datasource" />
+    <None Include="Properties\DataSources\DGVPrinterHelper.DGVCellDrawingEventArgs.datasource" />
+    <None Include="Properties\DataSources\DGVPrinterHelper.DGVPrinter+Alignment.datasource" />
+    <None Include="Properties\DataSources\DGVPrinterHelper.DGVPrinter+ColumnWidthSetting.datasource" />
+    <None Include="Properties\DataSources\DGVPrinterHelper.DGVPrinter+ImbeddedImage.datasource" />
+    <None Include="Properties\DataSources\DGVPrinterHelper.DGVPrinter+Location.datasource" />
+    <None Include="Properties\DataSources\DGVPrinterHelper.DGVPrinter+PrintDialogSettingsClass.datasource" />
+    <None Include="Properties\DataSources\DGVPrinterHelper.DGVPrinter+PrintLocation.datasource" />
+    <None Include="Properties\DataSources\DGVPrinterHelper.DGVPrinter+rowdata.datasource" />
+    <None Include="Properties\DataSources\DGVPrinterHelper.DGVPrinter+RowHeightSetting.datasource" />
+    <None Include="Properties\DataSources\DGVPrinterHelper.DGVPrinter+SizeType.datasource" />
+    <None Include="Properties\DataSources\DGVPrinterHelper.DGVPrinter.datasource" />
+    <None Include="Properties\DataSources\DGVPrinterHelper.Extensions.datasource" />
+    <None Include="Properties\DataSources\DGVPrinterHelper.LogManager+Categories.datasource" />
+    <None Include="Properties\DataSources\DGVPrinterHelper.LogManager.datasource" />
+    <None Include="Properties\DataSources\DGVPrinterHelper.LogWriter.datasource" />
+    <None Include="Properties\DataSources\frmAdminDashboard.datasource" />
+    <None Include="Properties\DataSources\frmUserDashboard.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="studentdb1DataSet.xsc">
+      <DependentUpon>studentdb1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="studentdb1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>studentdb1DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="studentdb1DataSet.xss">
+      <DependentUpon>studentdb1DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
